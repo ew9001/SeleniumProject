@@ -64,7 +64,7 @@ public class TestNGAnotation_1 {
 			e.printStackTrace();
 		}
 	    driver.manage().window().maximize();
-	    driver.get("http://www.vicks.com");
+	    driver.get("http://www.metamucil.com");
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	@BeforeMethod
