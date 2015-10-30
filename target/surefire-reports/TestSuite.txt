@@ -1,22 +1,99 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 71.738 sec <<< FAILURE! - in TestSuite
-login(LearningTestNG.TestNGAnotation_1)  Time elapsed: 32.009 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:89)
-	at org.testng.Assert.fail(Assert.java:96)
-	at LearningTestNG.TestNGAnotation_1.login(TestNGAnotation_1.java:95)
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 1, Time elapsed: 63.644 sec <<< FAILURE! - in TestSuite
+searchproducts(LearningTestNG.SearchTerm)  Time elapsed: 0.124 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 70 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Earls-MacBook-Pro.local', ip: '192.168.2.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3d7b95db-094b-f744-b5d8-0724cd7ae188
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$100(FirefoxDriver.java:65)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:244)
+	at LearningTestNG.SearchTerm.searchproducts(SearchTerm.java:47)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Earls-MacBook-Pro.local', ip: '192.168.2.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9455)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9602)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9549)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12390)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
 
-login(LearningTestNG.TestNGAnotation_1)  Time elapsed: 32.995 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:89)
-	at org.testng.Assert.fail(Assert.java:96)
-	at LearningTestNG.TestNGAnotation_1.login(TestNGAnotation_1.java:95)
+afterClass(LearningTestNG.SearchTerm)  Time elapsed: 0.16 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Earls-MacBook-Pro.local', ip: '192.168.2.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3d7b95db-094b-f744-b5d8-0724cd7ae188
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:511)
+	at LearningTestNG.SearchTerm.afterClass(SearchTerm.java:82)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Earls-MacBook-Pro.local', ip: '192.168.2.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12602)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9455)
+	at <anonymous class>.Resource.prototype.handle(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9602)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9549)
+	at <anonymous class>.WebDriverServer/<.handle(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12390)
+	at <anonymous class>.createHandlerFunc/<(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)
+	at <anonymous class>.Connection.prototype.process(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///var/folders/pd/9b4rnjds24qfn9vgctykl9dm0000gn/T/anonymous2573925434975960132webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)
 
-login(LearningTestNG.TestNGAnotation_1)  Time elapsed: 44.861 sec  <<< FAILURE!
-java.lang.AssertionError: null
+logout(LearningTestNG.TestNGAnotation_1)  Time elapsed: 2.907 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Sign In> but was:<SIGN IN>
 	at org.testng.Assert.fail(Assert.java:89)
-	at org.testng.Assert.fail(Assert.java:96)
-	at LearningTestNG.TestNGAnotation_1.login(TestNGAnotation_1.java:95)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at LearningTestNG.TestNGAnotation_1.logout(TestNGAnotation_1.java:114)
+
+logout(LearningTestNG.TestNGAnotation_1)  Time elapsed: 3.357 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Sign In> but was:<SIGN IN>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at LearningTestNG.TestNGAnotation_1.logout(TestNGAnotation_1.java:114)
+
+logout(LearningTestNG.TestNGAnotation_1)  Time elapsed: 3.984 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Sign In> but was:<SIGN IN>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at LearningTestNG.TestNGAnotation_1.logout(TestNGAnotation_1.java:114)
 

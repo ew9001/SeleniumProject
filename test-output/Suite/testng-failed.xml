@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <parameter name="browser" value="firefox"/>
   <parameter name="version" value="41.0"/>
   <parameter name="platform" value="MAC"/>
@@ -27,33 +27,16 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- LearningTestNG.TestNGAnotation_1 -->
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- LearningTestNG.SearchTerm -->
     </classes>
   </test> <!-- SecondTest(failed) -->
-  <test name="ThirdTest(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <parameter name="version" value="41.0"/>
-    <parameter name="platform" value="MAC"/>
-    <classes>
-      <class name="LearningTestNG.TestNGAnotation_1">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="afterClass"/>
-          <include name="afterClass"/>
-          <include name="afterClass"/>
-          <include name="login"/>
-          <include name="logout"/>
-          <include name="afterMethod"/>
-          <include name="afterMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- LearningTestNG.TestNGAnotation_1 -->
-    </classes>
-  </test> <!-- ThirdTest(failed) -->
   <test name="FirstTest(failed)" parallel="tests">
     <parameter name="browser" value="IE"/>
     <parameter name="version" value="10.0"/>
@@ -77,6 +60,47 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- LearningTestNG.TestNGAnotation_1 -->
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- LearningTestNG.SearchTerm -->
     </classes>
   </test> <!-- FirstTest(failed) -->
+  <test name="ThirdTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="41.0"/>
+    <parameter name="platform" value="MAC"/>
+    <classes>
+      <class name="LearningTestNG.TestNGAnotation_1">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- LearningTestNG.TestNGAnotation_1 -->
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- LearningTestNG.SearchTerm -->
+    </classes>
+  </test> <!-- ThirdTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

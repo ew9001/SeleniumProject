@@ -6,11 +6,8 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -67,6 +64,8 @@ public class TestNGAnotation_1 {
 	    driver.get("http://www.metamucil.com");
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
+	
+	
 	@BeforeMethod
 	public void beforeMethod(){
 		System.out.println("This is the beforeMethod-blanks");		
@@ -93,7 +92,7 @@ public class TestNGAnotation_1 {
 	    Assert.assertEquals(ActualText, "YOUR BASIC INFORMATION");
 	    
 		} catch(Exception e){ Assert.fail(); 
-		//To fail test in case of any element identification failure	
+		//8888To fail test in case of any elementt identification failurefdsfafds sf	
 
 		} 
 
@@ -110,11 +109,11 @@ public class TestNGAnotation_1 {
 	    driver.findElement(By.id("phdesktopheader_0_phdesktopheadertop_2_LogOffLink")).click();
 	    driver.findElement(By.id("phdesktopheader_0_phdesktopheadertop_2_anchrContinue")).click();
 	    String ActualLabel = driver.findElement(By.id("phdesktopbody_0_Header")).getText();
-	    System.out.println("Asserts Sign-In Label after logging out");
+	    System.out.println("Assers Sign-In Label after logging out");
 	    Assert.assertEquals(ActualLabel , "Sign In");
 	    
 		} catch(Exception e){ Assert.fail(); 
-		//To fail test in case of any element identification failure	
+		//To fail a test in case of any element identification failureee	
 
 		} 
 

@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="LearningTestNG.TestNGAnotation_1">
+      <class name="LearningTestNG.SearchTerm">
         <methods>
-          <include name="login"/>
-          <include name="logout"/>
+          <include name="searchcontent"/>
+          <include name="searchproducts"/>
         </methods>
-      </class> <!-- LearningTestNG.TestNGAnotation_1 -->
+      </class> <!-- LearningTestNG.SearchTerm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

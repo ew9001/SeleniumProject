@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 	
-<suite thread-count="4" name="Suite" parallel="tests">
+<suite thread-count="3" name="Suite" parallel="tests">
   <test name="FirstTest">
   <parameter name="browser" value="IE"/>
   <parameter name="version" value="10.0"/>
@@ -23,7 +23,10 @@
   <parameter name="version" value="41.0"/>
   <parameter name="platform" value="MAC"/>
     <classes>
-      <class name="LearningTestNG.TestNGAnotation_1"/>
+
+  
+                  <class name="LearningTestNG.SearchTerm"/>
+      
     </classes>
     
     

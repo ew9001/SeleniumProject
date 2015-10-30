@@ -9,6 +9,24 @@
     <parameter name="version" value="46.0"/>
     <parameter name="platform" value="WINDOWS"/>
     <classes>
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="LearningTestNG.TestNGAnotation_2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class>
       <class name="LearningTestNG.TestNGAnotation_1">
         <methods>
           <include name="beforeClass"/>
@@ -26,6 +44,26 @@
     <parameter name="version" value="41.0"/>
     <parameter name="platform" value="MAC"/>
     <classes>
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="searchcontent"/>
+          <include name="searchproducts"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="LearningTestNG.TestNGAnotation_2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class>
       <class name="LearningTestNG.TestNGAnotation_1">
         <methods>
           <include name="beforeClass"/>
@@ -43,6 +81,24 @@
     <parameter name="version" value="10.0"/>
     <parameter name="platform" value="WINDOWS"/>
     <classes>
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+      <class name="LearningTestNG.TestNGAnotation_2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class>
       <class name="LearningTestNG.TestNGAnotation_1">
         <methods>
           <include name="beforeClass"/>
