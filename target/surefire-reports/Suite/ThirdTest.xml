@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Earls-MacBook-Pro.local" name="LearningTestNG.TestNGAnotation_1" tests="2" failures="1" timestamp="30 Oct 2015 12:44:04 GMT" time="63.936" errors="0">
+  <testcase name="login" time="38.321" classname="LearningTestNG.TestNGAnotation_1">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;id&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;phdesktopbody_0_StepOneMessage&amp;quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.46.0&amp;apos;, revision: &amp;apos;87c69e2&amp;apos;, time: &amp;apos;2015-06-04 16:16:47&amp;apos;
+System info: host: &amp;apos;mac-208-52-180-119.browserstack.com&amp;apos;, ip: &amp;apos;208.52.180.119&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.8.5&amp;apos;, java.version: &amp;apos;1.6.0_65&amp;apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 30.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.48.2&amp;apos;, revision: &amp;apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&amp;apos;, time: &amp;apos;2015-10-09 13:08:06&amp;apos;
+System info: host: &amp;apos;Earls-MacBook-Pro.local&amp;apos;, ip: &amp;apos;192.168.2.4&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.10.2&amp;apos;, java.version: &amp;apos;1.8.0_65&amp;apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=41.0, platform=MAC, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=75cc73f41e98053d1573be3fa01048d9947f44b7, locationContextEnabled=true, webStorageEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75cc73f41e98053d1573be3fa01048d9947f44b7
+*** Element info: {Using=id, value=phdesktopbody_0_StepOneMessage}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"phdesktopbody_0_StepOneMessage"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'mac-208-52-180-119.browserstack.com', ip: '208.52.180.119', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.5', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+Command duration or timeout: 30.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Earls-MacBook-Pro.local', ip: '192.168.2.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, databaseEnabled=true, handlesAlerts=true, version=41.0, platform=MAC, nativeEvents=false, acceptSslCerts=false, webdriver.remote.sessionid=75cc73f41e98053d1573be3fa01048d9947f44b7, locationContextEnabled=true, webStorageEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 75cc73f41e98053d1573be3fa01048d9947f44b7
+*** Element info: {Using=id, value=phdesktopbody_0_StepOneMessage}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at LearningTestNG.TestNGAnotation_1.login(TestNGAnotation_1.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"phdesktopbody_0_StepOneMessage"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:16:47'
+System info: host: 'mac-208-52-180-119.browserstack.com', ip: '208.52.180.119', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.5', java.version: '1.6.0_65'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'Earls-MacBook-Pro.local', ip: '192.168.2.4', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/n_/7htl9fp11ss9_dww1fpr6kr00000km/T/anonymous4727496975298527777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10299)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/n_/7htl9fp11ss9_dww1fpr6kr00000km/T/anonymous4727496975298527777webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+... Removed 21 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="logout" time="0.0" classname="LearningTestNG.TestNGAnotation_1">
+    <skipped/>
+  </testcase>
+</testsuite>

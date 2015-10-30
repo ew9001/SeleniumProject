@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Earls-MacBook-Pro.local" name="LearningTestNG.TestNGAnotation_1" tests="4" failures="0" timestamp="28 Oct 2015 21:32:50 GMT" time="36.531" errors="0">
+  <testcase name="login" time="8.391" classname="LearningTestNG.TestNGAnotation_1"/>
+  <testcase name="editprofile" time="16.991" classname="LearningTestNG.TestNGAnotation_1"/>
+  <testcase name="logout" time="2.718" classname="LearningTestNG.TestNGAnotation_1"/>
+  <testcase name="test3" time="0.0" classname="LearningTestNG.TestNGAnotation_2"/>
+</testsuite>

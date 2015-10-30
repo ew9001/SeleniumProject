@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Basic Search Functional Test Suite]">
+  <test name="Search Tests(failed)" preserve-order="false">
+    <classes>
+      <class name="LearningTestNG.SearchTerm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="searchcontent"/>
+          <include name="searchproducts"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

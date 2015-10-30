@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Test Suite]">
+  <test name="Basic Tests(failed)">
+    <classes>
+      <class name="LearningTestNG.TestNGAnotation_1">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="editprofile"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- LearningTestNG.TestNGAnotation_1 -->
+      <class name="LearningTestNG.TestNGAnotation_2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- LearningTestNG.TestNGAnotation_2 -->
+    </classes>
+  </test> <!-- Basic Tests(failed) -->
+</suite> <!-- Failed suite [Functional Test Suite] -->

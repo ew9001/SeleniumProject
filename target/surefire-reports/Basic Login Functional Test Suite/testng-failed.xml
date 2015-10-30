@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Basic Login Functional Test Suite]">
+  <test name="Login, Edit, Logout Tests(failed)" preserve-order="false">
+    <classes>
+      <class name="LearningTestNG.TestNGAnotation_1">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+          <include name="editprofile"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class>
+      <class name="LearningTestNG.TestNGAnotation_2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
