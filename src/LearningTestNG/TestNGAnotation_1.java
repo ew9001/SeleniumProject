@@ -89,7 +89,7 @@ public class TestNGAnotation_1 {
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	    String ActualText = driver.findElement(By.id("phdesktopbody_0_StepOneMessage")).getText();
 	    
-	    System.out.println("Asserts Your Basic Information Lable after logging-in on Secure Profile Page");
+	    System.out.println("User logs in");
 	    Assert.assertEquals(ActualText, "YOUR BASIC INFORMATION");
 	    
 		} catch(Exception e){ Assert.fail(); 

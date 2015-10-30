@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" verbose="0" name="Failed suite [Suite]" parallel="tests">
+<suite thread-count="4" verbose="0" name="Failed suite [Suite]" parallel="tests">
   <parameter name="browser" value="firefox"/>
   <parameter name="version" value="41.0"/>
   <parameter name="platform" value="MAC"/>
