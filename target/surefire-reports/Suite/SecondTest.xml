@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Earls-MacBook-Pro.local" name="LearningTestNG.TestNGAnotation_1" tests="2" failures="1" timestamp="30 Oct 2015 22:12:41 GMT" time="63.04" errors="0">
-  <testcase name="login" time="8.961" classname="LearningTestNG.TestNGAnotation_1"/>
-  <testcase name="logout" time="3.984" classname="LearningTestNG.TestNGAnotation_1">
+<testsuite hostname="Earls-MacBook-Pro.local" name="LearningTestNG.TestNGAnotation_1" tests="2" failures="1" timestamp="31 Oct 2015 13:37:08 GMT" time="25.933" errors="0">
+  <testcase name="login" time="7.548" classname="LearningTestNG.TestNGAnotation_1"/>
+  <testcase name="logout" time="3.419" classname="LearningTestNG.TestNGAnotation_1">
     <failure type="java.lang.AssertionError" message="expected:&amp;lt;Sign In&amp;gt; but was:&amp;lt;SIGN IN&amp;gt;">
       <![CDATA[java.lang.AssertionError: expected:<Sign In> but was:<SIGN IN>
-	at LearningTestNG.TestNGAnotation_1.logout(TestNGAnotation_1.java:114)
+	at LearningTestNG.TestNGAnotation_1.logout(TestNGAnotation_1.java:113)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
